@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+            .thard{
+                background-color: lightcoral;
+                padding: 18px;
+                font-size: 20px;
+                border: 3px solid skyblue;
+            }
+            .one{
+                position: relative;
+                display: inline-block;
+            }
+            .thard{ 
+                position: absolute;
+                background-color: lightseagreen;
+                min-width: 180px;
+                box-shadow: 0 8px 18px lightpink;
+                z-index: 1;
+                display: none;
+            }
+            .thard a{
+                color: black;
+                padding: 14px 16px;
+                text-decoration: none;
+                display: block;
+            }
+            .thard a:hover{ 
+                background-color: lightsalmon;
+
+            } 
+            .one:hover .thard{
+                display: block;
+            }
+    </style>
+</head>
+<body>
+    <div class="one">
+        <button class="two">Languages</button>
+        <div class="thard">
+            <a href="#">Telugu</a>
+            <a href="#">English</a>
+            <a href="#">Hindi</a>
+        </div>
+    </div>
+    
+</body>
+</html>
