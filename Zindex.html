@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z_Index</title>
+    <style>
+        .one1{
+            border: 5px solid red;
+            height: 100px;
+            width: 100px;
+            color: red;
+        }
+        .one2{
+            position: absolute;
+            background-color: blue;
+            height: 100px;
+            width: 200px;
+            top: 50px;
+            left: 50px;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">
+    <div class="one1">hello hello hello hello hello development </div>
+    <div class="one2">hello</div>
+</div>
+</body>
+</html>
