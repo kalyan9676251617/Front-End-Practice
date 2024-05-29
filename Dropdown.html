@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .db{
+            background-color: green;
+            color: white;
+        }
+        .db:hover{
+            background-color: red;
+        }
+        .dropdown{
+            position: relative;
+            display: inline-block;
+        }
+        .dc{
+            display: none;
+            position: absolute;
+            background-color: pink;
+            min-width: 160px;
+            z-index: 1;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+        .dc a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+    </style>
+</head>
+<body>
+    <div class="dropdown">
+        <button class="db">Dropdown</button>
+        <div class="dc">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+</body>
+</html>
