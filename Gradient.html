@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Types</title>
+    <style>
+        div{
+            text-align: center;
+        }
+        .linear{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            background: linear-gradient(blue, yellow, red);
+        }
+        .radian{
+            height: 150px;
+            width: 150px;
+            background-color: red;
+            background: repeating-radial-gradient(yellow 20px, blue 40px, green 50px);
+         } 
+         .conic{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            background-image: conic-gradient(yellow 90deg, blue, red);
+         }       
+    </style>
+</head>
+<body>
+    <h1>Gradient Types:</h1>
+    <h2>1. Linear Gradient</h2>
+    <div class="linear"></div><br><br>
+    <h2>2. Radial Gradient</h2>
+    <div class="radian"></div><br><br>
+    <h2>3. Conic</h2>
+    <div class="conic"></div>
+</body>
+</html>

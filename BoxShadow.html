@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow</title>
+    <style>
+        .oneshadow{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            background: repeating-linear-gradient(to bottom right, red, blue, yellow);
+            box-shadow: 5px 5px ;
+        }
+        .mulipuleshadow{
+            height: 150px;
+            width: 150px;
+            border: 2px solid red;
+            background: conic-gradient(yellow, blue);
+            box-shadow: 5px 5px , 10px 10px green, 20px 20px pink;
+        }
+    </style>
+</head>
+<body>
+    <h1>Single Shoadow</h1>
+    <div class="oneshadow"></div><br><br>
+    <h1>Mutipul Shadows</h1>
+    <div class="mulipuleshadow"></div>
+</body>
+</html>
