@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Functions In JS</h1>
+    <h2>Funtion declaration</h2>
+    <p>function function name(){ }</p>
+    <h3>1. Without arguments</h3>
+    <script>
+        function f(){
+            document.write("hello");
+        }
+        f();
+    </script>
+    <h3>2. with arguments</h3>
+    <script>
+        function f1(num1){
+            document.write(num1)
+        }
+        f1(10);
+    </script>
+    <h3>3. without function name</h3>
+    <script>
+        // Anonymous function declared and immediately invoked
+(function() {
+    document.write("This is an anonymous function!");
+})();
+
+    </script>
+</body>
+</html>
